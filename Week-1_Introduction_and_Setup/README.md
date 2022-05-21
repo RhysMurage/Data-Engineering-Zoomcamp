@@ -2,5 +2,5 @@
 
 ## Technologies
 ### Docker
-![Alt] (docker-logo.png)
+![Alt] (Images/docker-logo.png)
 > This is a containerization platform that enables the delivery of software in packages called containers
