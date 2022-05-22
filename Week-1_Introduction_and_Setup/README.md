@@ -10,9 +10,9 @@
 2. **docker run --help**
 3. **docker run -it --entrypoint=bash python:3.9**
 4. **docker build -t test:pandas .**
-    > _test_: name of the image created
-    
-    > **_._**: tells docker to install the **Dockerfile** in the current directory 
+    > _test_ : name of the image created
+
+    > **_._** : tells docker to install the **Dockerfile** in the current directory 
 
 > We use docker to run data pipelines in an isolated environment. Data piplines are processes and services that take in data and outputs more data
 
