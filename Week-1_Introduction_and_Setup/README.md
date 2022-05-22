@@ -21,7 +21,7 @@
 > We use docker to run data pipelines in an isolated environment. Data piplines are processes and services that take in data and outputs more data
 
 > **Dockerfile** contains the instructions of what packages to run when creating a new image in the container. It contains the following:
-- **FROM [baseimage]**
+- FROM [baseimage]
 - RUN pip install <package> : packages to be installed
 - WORKDIR : creates a directory where pipeline will be located
 - COPY <**source**> <**destination**> : copies files from destination located in the same directory to a new file that will be in the container
